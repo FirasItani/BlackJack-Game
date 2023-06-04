@@ -1,0 +1,46 @@
+html {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(215, 215, 118);
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+  background: linear-gradient(blanchedalmond, rgb(123, 120, 120));
+  font-weight: bold;
+  padding: 10px 20px;
+  color: black;
+  text-align: center;
+  font-size: xx-large;
+  border: 5px solid blanchedalmond;
+  border-radius: 8px;
+}
+
+h1 {
+  color: rgb(116, 86, 173);
+}
+
+#italic {
+  font-style: italic;
+  color: red;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  width: 200px;
+  padding: 10px 5px;
+  margin: 5px 0 2px;
+  background-color: rgb(2, 2, 2);
+  font-weight: bold;
+  font-size: large;
+  border: none;
+  border-radius: 3px;
+  color: rgb(215, 215, 118);
+}
